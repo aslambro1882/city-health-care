@@ -30,6 +30,7 @@ const Login = () => {
 
     const processLogin = (e) => {
         e.preventDefault();
+
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 console.log(result.user);
@@ -40,6 +41,7 @@ const Login = () => {
             .catch(error => {
                 console.log(error.message)
             })
+
     }
 
 

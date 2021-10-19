@@ -33,6 +33,7 @@ const Register = () => {
 
     const createNewUser = e => {
         e.preventDefault();
+
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 result.user.displayName = name;
@@ -44,6 +45,7 @@ const Register = () => {
             .catch(error => {
                 console.log(error.message)
             })
+
 
     }
 

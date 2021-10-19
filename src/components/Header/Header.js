@@ -30,7 +30,7 @@ const Header = () => {
 
 
                         <Navbar.Text>
-                            {user?.email && <span>{user?.displayName?.slice(0, 10)}</span>}
+                            {user?.email && <span className="text-dark">{user?.displayName?.slice(0, 10)}</span>}
                         </Navbar.Text>
 
                         <div>
