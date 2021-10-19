@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Achilles Tendon Injuries",
+        "img": "https://i.ibb.co/ZYxYpT5/artur-tumasjan-q-Lz-Wvc-Qq-V8-unsplash.jpg",
+        "description": "The Achilles tendon is a strong tendon that connects the calf muscles to the heel. Achilles tendinitis is a common condition that occurs when the large tendon that runs down the back of your lower leg becomes irritated and inflamed."
+    },
+    {
+        "id": 2,
+        "name": "Achilles Tendon Rupture",
+        "img": "https://i.ibb.co/17ZTc60/national-cancer-institute-n-R2-C9-AVzf-HY-unsplash.jpg",
+        "description": "Achilles tendon ruptures are more common in men than in women and most often occur during sporting activities."
+    },
+    {
+        "id": 3,
+        "name": "Achilles Tendon Rupture",
+        "img": "https://i.ibb.co/mvHyQLQ/hush-naidoo-jade-photography-p-A0uoltkwao-unsplash.jpg",
+        "description": "The Achilles is the largest and strongest tendon in the body. It is subject to two to three times body weight during normal walking, so regaining normal Achilles tendon function is critical."
+    },
+    {
+        "id": 4,
+        "name": "Achilles Tendonitis",
+        "img": "https://i.ibb.co/zfSm7cy/jafar-ahmed-E285p-Jb-C4u-E-unsplash.jpg",
+        "description": "Achilles tendonitis is characterized by pain and swelling in the Achilles tendon."
+    },
+    {
+        "id": 5,
+        "name": "Acquired Adult Flatfoot Deformity",
+        "img": "https://i.ibb.co/hWZcBWv/sam-moqadam-l9-Vj-M-Pp7-M-unsplash.jpg",
+        "description": "Also known as Posterior Tibial Tendon Dysfunction, flatfoot deformity is a chronic condition where the soft tissues on the inside of the foot & ankle are subjected to repetitive load bearing during walking and standing."
+    },
+    {
+        "id": 6,
+        "name": "Acute Pain",
+        "img": "https://i.ibb.co/cLqQxm0/richard-catabay-05k-HY7-AYCp8-unsplash.jpg",
+        "description": "The Acute Pain Services at the Pain Management Center deliver comprehensive, multidisciplinary care for individuals with postoperative or post-traumatic pain, and treat conditions such as arthritis, back pain and joint pain."
+    },
+    {
+        "id": 7,
+        "name": "Acute Psychiatry Service",
+        "img": "https://i.ibb.co/dWWLgwJ/quang-tri-nguyen-Vckd-Jzo7ig0-unsplash.jpg",
+        "description": "The Acute Psychiatry Service at Mass General addresses acute psychiatric, neuropsychiatric and substance-use emergencies in children and adults."
+    },
+    {
+        "id": 8,
+        "name": "Addiction Recovery Management Service",
+        "img": "https://i.ibb.co/fdNN2Sb/piron-guillaume-y6a-FH6-Zh-I7s-unsplash.jpg",
+        "description": "The Addiction Recovery Management Service (ARMS) specializes in supporting teenagers and young adults between the ages of 14 and 26 and their parents as they deal with their substance use and related problems."
+    },
+    {
+        "id": 9,
+        "name": "Adjustable Gastric Banding",
+        "img": "https://i.ibb.co/LRdKVL0/piron-guillaume-iwza-TMp-BD7-Q-unsplash.jpg",
+        "description": "Adjustable gastric banding (AGB) is a weight loss surgery performed by bariatric surgeons at the Massachusetts General Hospital Weight Center in which a band is placed around the upper portion of the stomach, reducing food intake."
+    },
+    {
+        "id": 10,
+        "name": "Adjuvant Therapy",
+        "img": "https://i.ibb.co/DWJcw0d/olga-kononenko-98-Ms-Ka-Us-I-unsplash.jpg",
+        "description": "Adjuvant therapy is a term used to describe interventions given before or after tumor surgery to maximize the effectiveness of cancer treatment, which includes chemotherapy, radiation and the newer targeted and biological therapies."
+    }
+]
