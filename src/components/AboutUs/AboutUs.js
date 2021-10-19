@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './AboutUs.css'
 
 const AboutUs = ({ about }) => {
-    console.log(about)
 
     const { img, description, title, name } = about;
     return (

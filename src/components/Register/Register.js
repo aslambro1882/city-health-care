@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
     const { signInUsingGoogle, setUser } = useAuth();
+    const location = useLocation();
+    console.log("from registration", location);
+    const history = useHistory();
+    console.log("history from login", history);
+    const redirect_url = location?.state?.from || "/home";
 
 
     const auth = getAuth();
@@ -30,7 +35,10 @@ const Register = () => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
+                result.user.displayName = name;
                 setUser(result.user)
+                console.log(result.user)
+                history.push(redirect_url);
 
             })
             .catch(error => {

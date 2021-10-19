@@ -22,7 +22,6 @@ const Home = () => {
     }, [])
 
     const [abouts, setAbouts] = useState();
-    console.log(abouts)
     useEffect(() => {
         fetch("about.json")
             .then(res => res.json())
@@ -34,7 +33,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="mt-5">
+            <div className="mt-5 container shadow">
                 <h2 className="p-5 fw-bold text-dark text-center m-0">Our Services</h2>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {
@@ -45,7 +44,7 @@ const Home = () => {
                     }
                 </Row>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 container shadow">
                 <h2 className="p-4 text-dark  text-center m-0">Our Doctors</h2>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import initializeAuthentication from '../Firebase/firebase.init';
 import { GoogleAuthProvider, signInWithPopup, getAuth, onAuthStateChanged, signOut } from "firebase/auth";
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 
 
 
@@ -10,6 +10,11 @@ initializeAuthentication();
 
 const useFirebase = () => {
 
+    // const location = useLocation();
+    // console.log("location from login", location);
+    // const history = useHistory();
+    // console.log("history from login", history);
+    // const redirect_url = location?.state?.from || "/home";
 
 
 
@@ -24,6 +29,8 @@ const useFirebase = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 setUser(result.user)
+
+
 
             })
             .catch(error => {

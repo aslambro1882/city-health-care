@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceDetail = () => {
     const { serviceId } = useParams();
-    console.log(serviceId);
     const [serviceDetail, setServiceDetail] = useState([]);
-    console.log(serviceDetail);
-
     useEffect(() => {
         fetch("./../services.json")
             .then(res => res.json())
@@ -16,7 +13,7 @@ const ServiceDetail = () => {
     }, [])
 
     const data = serviceDetail.find(service => service.id == serviceId)
-    console.log(data);
+
 
 
     return (

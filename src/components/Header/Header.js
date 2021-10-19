@@ -6,7 +6,6 @@ import useAuth from '../../hooks/useAuth';
 const Header = () => {
 
     const { user, logOut } = useAuth();
-    console.log("from user", user);
 
 
 
@@ -15,9 +14,9 @@ const Header = () => {
             <Navbar className="shadow" collapseOnSelect expand="md" bg="light" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/home"><img src="https://i.ibb.co/jWKFF1Y/6223854185-16cccb93-b61e-4326-9aa2-2f5558b06bba.png" alt="" width="100" /></Navbar.Brand>
-                    <Navbar.Toggle />
+                    <Navbar.Toggle className="bg-dark" />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link className="text-dark fw-bold" className="text-dark fw-bold" as={Link} to="/home">Home</Nav.Link>
+                        <Nav.Link className="text-dark fw-bold" as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link className="text-dark fw-bold" as={Link} to="/services">Our Services</Nav.Link>
                         <Nav.Link className="text-dark fw-bold" as={Link} to="/doctors">Doctors</Nav.Link>
                         <Nav.Link className="text-dark fw-bold" as={Link} to="/about">About</Nav.Link>
