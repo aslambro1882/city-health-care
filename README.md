@@ -14,8 +14,10 @@
 * VS Code
 * Unsplash
 * JSON Generator
-* Netlify
+* Firebase
 * GitHub
+* TinyPng
+* Imgbb
 
 ## License & copyright
 © Maruf Bin Solaiman, Student of CSE, CU.
