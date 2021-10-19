@@ -63,20 +63,29 @@ const Banner = () => {
                         <Col lg={7}>
                             <Row>
                                 <Col className="m-2">
-                                    <input className="w-100" type="text" placeholder="Name" />
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Name" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                                    </div>
                                 </Col>
                                 <Col className="m-2">
-                                    <input className="w-100" type="email" placeholder="Email" />
+                                    <div class="input-group mb-3">
+                                        <input type="email" class="form-control" placeholder="Email" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                                    </div>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col className="m-2">
-                                    <input className="w-100" type="date" placeholder="Date" />
+                                    <div class="input-group mb-3">
+                                        <input type="date" class="form-control" placeholder="Date" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                                    </div>
                                 </Col>
                                 <Col className="m-2">
-                                    <input className="w-100" type="number" placeholder="Phone" />
+                                    <div class="input-group mb-3">
+                                        <input type="number" class="form-control" placeholder="Phone" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                                    </div>
                                 </Col>
                             </Row>
+                            <Row><button className="w-50 mx-auto btn btn-outline-dark">Book Appoint</button></Row>
                         </Col>
                     </Row>
                 </Container>

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import AboutUs from '../AboutUs/AboutUs';
+import { Col, Container, Nav, Row } from 'react-bootstrap';
 import Gallerys from '../Gallerys/Gallerys';
 import './AboutsUs.css'
+import { HashLink } from 'react-router-hash-link';
 
 const AboutsUs = () => {
 
@@ -17,7 +16,7 @@ const AboutsUs = () => {
 
     return (
 
-        <div>
+        <div id="about">
             <div>
                 <Row xs={1} md={1} lg={2} className="d-flex justify-content-center align-items-center">
                     <Col>
@@ -28,7 +27,7 @@ const AboutsUs = () => {
                         <small >{data[0].name}</small>
                         <h2>{data[0].title}</h2>
                         <p>{data[0].description}</p>
-                        <Link to="/about"><button className="btn btn-outline-dark">See More</button></Link>
+                        <Nav.Link as={HashLink} to="/about#about"><button className="btn btn-outline-dark">See More</button></Nav.Link>
                     </Col>
                 </Row>
             </div>

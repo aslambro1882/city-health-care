@@ -49,6 +49,11 @@ const Register = () => {
 
     }
 
+    const handleGoogleSignIn = () => {
+        signInUsingGoogle()
+        history.push(redirect_url);
+    }
+
 
 
     return (
@@ -87,7 +92,7 @@ const Register = () => {
                 <div className="border border-info w-100"></div>
                 <br />
                 <div className="mb-4">
-                    <button onClick={signInUsingGoogle} className="btn btn-outline-warning w-75">Google Sign In</button>
+                    <button onClick={handleGoogleSignIn} className="btn btn-outline-warning w-75">Google Sign In</button>
                 </div>
 
 

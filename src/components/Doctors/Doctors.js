@@ -10,7 +10,7 @@ const Doctors = () => {
             .then(data => setDoctors(data))
     }, [])
     return (
-        <div>
+        <div className="my-5">
             <Row xs={1} md={2} lg={3} className="g-4 container mx-auto">
                 {
                     doctors?.map(doctor => <Doctor

@@ -33,7 +33,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="mt-5 container shadow">
+            <div className="my-5 container shadow">
                 <h2 className="p-5 fw-bold text-dark text-center m-0">Our Services</h2>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {
